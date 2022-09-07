@@ -1,0 +1,15 @@
+module MyEnumerable
+  def all?
+    each do |y|
+      return false unless yield y
+    end
+    true
+  end
+
+  def any?
+    each do |y|
+      return true if yield y
+    end
+    false
+  end
+
