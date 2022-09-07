@@ -13,3 +13,11 @@ module MyEnumerable
     false
   end
 
+def filter
+    new_list = []
+    each do |y|
+      new_list << y if yield y
+    end
+    new_list
+  end
+end
