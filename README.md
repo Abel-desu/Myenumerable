@@ -1,16 +1,21 @@
-# decode-morse-code
+# enumerate 
+In this project we use a module inside our class. For this we create a class List and a module Enumerable. Our module Enumerable will implement a subset of the functionality of Enumerable.
 
-> This is a Ruby project to enumerate code
+# Built With
+ -- Ruby
 
+# Getting Started
+ -- To get a local copy up and running follow these simple example steps.
 
-## Built With
+# Prerequisites
+ -- Any text editor such as vscode.
 
-- Ruby
+# Setup
+Clone this repo locally using git in the command line and the following command
 
-## Getting Started
+git clone https://github.com/Abel-desu/myenumerable
 
-This repository includes files with plain Ruby code
-
+-- Install -- Ruby
 ## Authors
 
 👤 **Abdullah**
